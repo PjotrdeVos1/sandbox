@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+header {
+    background-color: dodgerblue;
+    text-align: left;
+    color: white;
+    padding: 10px;
+
+}
+
+
+.SectionBackground {
+    height: 50px;
+}
+
+#Profile\ Icon {
+    float: right;
+    padding: 10px;
+    height: 8vh;
+}
+
+.SectionSquare {
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    width: 50vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.AsideSectionSquare {
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+    height: 75%;
+    width: 25%;
+    border-radius: 25px;
+    background-color: yellow;
+
+}
+
