@@ -5,25 +5,59 @@
   <title>Title</title>
   <link rel="stylesheet" type="text/css" href="StyleSheet.css">
 </head>
-<header>
 
-  <img src="Images/profile%20icon.png" alt="ProfileIcon" id="Profile Icon">
-
-  <h1>PBS</h1>
-
-</header>
 <body>
 
-<main>
+<header>
+  <img src="Images/profile%20icon.png" alt="ProfileIcon" id="Profile Icon" >
 
+  <h1>PBS</h1>
+</header>
+
+<main>
 
   <section class="SectionBackground">
     <div class="SectionSquare">
 
+      <h1>Zoek rit</h1>
+
+      <form id="FormVanTot">
+        <label for="Van">Van:</label><br>
+        <input type="text" id="Van" name="Van" value="" required><br>
+
+        <label for="Naar">Naar:</label><br>
+        <input type="text" id="Naar" name="Naar" value="" required><br><br>
+
+
+        <input type="submit" value="Boek ticket">
+      </form>
 
     </div>
 
-    <aside class="AsideSectionSquare">
+
+    <aside class="AsideSquare">
+
+      <div class="Storingen">
+      <h2 id="AsideH1Storing">Storing</h2><br><br>
+
+        <div>
+            <p>Amsterdam</p>
+
+            <p id="Canceled">Geannuleerd</p>
+        </div>
+
+        <br><hr>
+
+        <div>
+
+        <p>Leiden</p>
+
+        <p id="Vertarging">5 minuten vertraagd</p>
+        </div>
+
+      <a href="https://www.youtube.com/watch?v=Ram7AKbtkGE" id="Feedback">Send feedback!</a>
+      </div>
+
 
     </aside>
 
@@ -31,6 +65,5 @@
 
   </section>
 </main>
-<footer></footer>
 </body>
 </html>

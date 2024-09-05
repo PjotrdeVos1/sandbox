@@ -12,35 +12,53 @@ header {
 }
 
 
-.SectionBackground {
-    height: 50px;
-}
-
 #Profile\ Icon {
     float: right;
-    padding: 10px;
-    height: 8vh;
+    padding: 5px;
+    height: 10vh;
 }
 
 .SectionSquare {
     margin-left: 40px;
     margin-right: 50px;
     margin-top: 50px;
-    padding: 50px;
-    width: 50vw;
+    padding: 20px;
+    width: 60vw;
     height: 40vh;
     background-color: white;
     border-radius: 25px;
+    float: left
+;
 }
 
-.AsideSectionSquare {
+.AsideSquare {
+    margin-right: 40px;
     margin-top: 50px;
-    margin-right: 50px;
+    height: 31vh;
+    width: 20vw;
+    padding: 50px;
+    background-color: white;
     float: right;
-    height: 75%;
-    width: 25%;
-    border-radius: 25px;
-    background-color: yellow;
+    border-radius: 20px;
 
 }
 
+#AsideH1Storing {
+    float: left;
+}
+
+#FormVanTot{
+    opacity: 1;
+}
+
+#Feedback {
+    text-align: center;
+}
+
+#Canceled {
+    color: red;
+}
+
+#Vertarging {
+    color: orange;
+}
